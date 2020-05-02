@@ -34,5 +34,5 @@
 	<dubbo:application name="e-search-web"/>
 	<dubbo:registry protocol="zookeeper" address="192.168.25.128:2181"/>	
 	<dubbo:reference interface="com.cusx.sso.service.RegisterService" id="registerService" />  
-	
+	<dubbo:reference interface="com.cusx.search.service.SearchService" id="searchService" />
 </beans>
